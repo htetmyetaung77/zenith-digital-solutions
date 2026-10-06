@@ -28,22 +28,10 @@ export const Footer: React.FC<FooterProps> = ({ lang, theme }) => {
                 ? 'ခေတ်မီ AI နည်းပညာ၊ Content Creator ဖန်တီးမှုနှင့် ကမ္ဘာ့အဆင့်မီ ပရိုဂရမ်သင်တန်းများကို အကောင်းဆုံး UI/UX ဖြင့် သင်ကြားပေးနေသော Next-Gen အကယ်ဒမီ။'
                 : 'Next-generation learning academy providing elite masterclasses in AI, content creation, and software engineering with stunning UI/UX.'}
             </p>
-            <div className="flex items-center gap-3 pt-2">
-              <a href="#" className={`w-10 h-10 rounded-xl border flex items-center justify-center transition-colors ${
-                isDark ? 'bg-slate-900 border-slate-800 text-slate-300 hover:text-white hover:bg-slate-800' : 'bg-white border-slate-200 text-slate-700 hover:bg-slate-100'
-              }`}>
-                <Facebook className="w-5 h-5" />
-              </a>
-              <a href="#" className={`w-10 h-10 rounded-xl border flex items-center justify-center transition-colors ${
-                isDark ? 'bg-slate-900 border-slate-800 text-slate-300 hover:text-white hover:bg-slate-800' : 'bg-white border-slate-200 text-slate-700 hover:bg-slate-100'
-              }`}>
-                <Twitter className="w-5 h-5" />
-              </a>
-              <a href="#" className={`w-10 h-10 rounded-xl border flex items-center justify-center transition-colors ${
-                isDark ? 'bg-slate-900 border-slate-800 text-slate-300 hover:text-white hover:bg-slate-800' : 'bg-white border-slate-200 text-slate-700 hover:bg-slate-100'
-              }`}>
-                <Github className="w-5 h-5" />
-              </a>
+            <div className="pt-2">
+              <span className="inline-block px-3 py-1.5 rounded-full bg-indigo-500/20 text-indigo-400 text-xs font-extrabold border border-indigo-500/30 shadow">
+                Made By HTET MYET AUNG
+              </span>
             </div>
           </div>
 
@@ -84,7 +72,7 @@ export const Footer: React.FC<FooterProps> = ({ lang, theme }) => {
 
         {/* Bottom copyright */}
         <div className={`pt-8 border-t flex flex-col sm:flex-row items-center justify-between text-xs text-slate-500 ${isDark ? 'border-slate-900' : 'border-slate-200'}`}>
-          <div>© 2026 AuraLearn Academy. All rights reserved.</div>
+          <div>© 2026 AuraLearn Academy. Made By HTET MYET AUNG. All rights reserved.</div>
           <div className="flex items-center gap-4 mt-4 sm:mt-0">
             <a href="#" className="hover:text-slate-400 transition-colors">Privacy Policy</a>
             <a href="#" className="hover:text-slate-400 transition-colors">Terms of Service</a>
