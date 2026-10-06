@@ -1,0 +1,7 @@
+{
+  "name": "AuraLearn - Next-Gen AI & Creator Academy",
+  "description": "An advanced next-generation learning and creator platform featuring AI courses, digital marketing, coding masterclasses, interactive mentorship, and dynamic student dashboards.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
